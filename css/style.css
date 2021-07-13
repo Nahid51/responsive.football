@@ -1,0 +1,90 @@
+/*  Google Font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* ----------------- Header Part ---------------- */
+header{
+    width: 1440px;
+    height: 677px;
+    background: #2D25A0;
+    color: white;
+}
+.nav-setup{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.navigation{
+    height: 44px;
+    width: 1161px;
+    display: flex;
+}
+.btn{
+    width: 50%;
+}
+.nav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btn a{
+    color: white;
+    padding: 0 25px 0 0;
+}
+.login-btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+}
+button{
+    width: 123px;
+    height: 44px;
+    background: #E02C6D;
+    color: white;
+}
+.fa-sign-in-alt{
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+/* ------------------------- */
+.poster-setup{
+    display: flex;
+    justify-content: center;
+}
+.poster{
+    display: flex;
+    margin-top: 50px;
+}
+
+.left-div{
+    width: 485px;
+    height: 230px;
+}
+.p-left p{
+    font-size: 64px;
+    margin-top: 50px;
+}
+.watch-live{
+    width: 168px;
+    height: 44px;
+}
+.watch-live a{
+    color: white;
+}
+.watch-live a i{
+    margin-left: 10px;
+}
+.right-div{
+    width: 556.01px;
+    height: 438px;
+}
