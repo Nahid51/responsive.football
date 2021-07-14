@@ -28,6 +28,10 @@ header{
 .btn{
     width: 50%;
 }
+.nav-btn a:first-child{
+    color: crimson;
+    font-size: 18px;
+}
 .nav-btn{
     display: flex;
     justify-content: center;
@@ -36,6 +40,9 @@ header{
 .nav-btn a{
     color: white;
     padding: 0 25px 0 0;
+}
+.nav-btn a:hover{
+    color: crimson;
 }
 .login-btn{
     display: flex;
@@ -74,6 +81,10 @@ button{
 .p-left p{
     font-size: 64px;
     margin-top: 50px;
+}
+.p-left p span{
+    font-size: 64px;
+    color: coral;
 }
 .watch-live{
     width: 168px;
