@@ -6,7 +6,8 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-/* ----------------- Header Part ---------------- */
+
+/* ----------------- Header Part Start ---------------- */
 header{
     width: 1440px;
     height: 677px;
@@ -88,7 +89,9 @@ button{
     width: 556.01px;
     height: 438px;
 }
-/* -------------Players Information----------------- */
+/* ----------------- Header Part End ---------------- */
+
+/* -------------Players Information start----------------- */
 .container{
     display: flex;
     justify-content: center;
@@ -96,8 +99,7 @@ button{
 }
 .play-border{
     width: 1050px;
-    height: 2500px;
-    border: 1px solid red;
+    height: 2150px;
 }
 .players{
     display: grid;
@@ -123,110 +125,126 @@ button{
 }
 h3{
     font-weight: bold;
+    color: #000;
     font-size: 28px;
 }
-.player-info p{
+.player-info p, .right-part{
     text-align: justify;
     color: #6C6C6C;
 }
-
--------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* -------------Players Information End----------------- */
+
+/* ---------------Top 6 Team Information------------------ */
+.team-area{
+    width: 1050px;
+    height: 1500px;
+    border: 1px solid gainsboro;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    padding: 10PX;
+    color:#E02C6D ;
+}
+.hole-team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    padding-left: 60px;
+}
+
+.team-details{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.left-part img{
+    width: 400px;
+    height: 270px;
+}
+
+/* ---------------Top 6 Team Information End------------------ */
+
+
+/* ----------------------About Football---------------------- */
+
+.tran-area{
+    width: 1200px;
+    height: 500px;
+    border: 1px solid gainsboro;
+}
+.box{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.tran-h2 h2{
+    width: 5em;
+    height: 10em;
+    transition: width 2s, height 2s, transform 2s;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:crimson;
+}
+.tran-h2 h2:hover{
+    width: 5em;
+    height: 10em;
+    transform: rotate(360deg);
+}
+.tran-p p{
+    width: 50em;
+    height: 20em;
+    font-size: 18px;
+    padding: 40px 10px 10px 10px;
+    text-align: justify;
+    color:gold;
+    background-color:navy;
+}
+span{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+/* -------------About Football End-------------- */
+
+/* ----------------Footer Start----------------- */
+
+.border{
+    width: 1050px;
+    height: 215px;
+    text-align: center;
+    margin: 30px;
+}
+.footer-border{
+    width: 483.87px;
+    height: 213px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.footer-logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.footer-a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-a a{
+    margin: 0 14px 0 14px;
+}
+.footer-p{
+    font-size: 18px;
+}
+.footer-icon{
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* ----------------Footer End------------------ */
