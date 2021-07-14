@@ -189,7 +189,6 @@ h2{
 .tran-area{
     width: 1200px;
     height: 500px;
-    border: 1px solid gainsboro;
 }
 .box{
     display: flex;
@@ -257,7 +256,6 @@ span{
     font-size: 18px;
 }
 .footer-icon{
-    background-color: gainsboro;
     padding: 10px;
     border-radius: 50%;
 }
@@ -266,74 +264,55 @@ span{
 /* ------------Make Responsive----------------- */
 /* ----------Mobile Devices----------------- */
 @media only screen and (max-width:668px) {
-    /* header{
+
+    header{
         width: 100%;
-        margin-bottom: 50em;
+        height: 825px;
+    }
+    .navigation{
+        margin-left: 10em;
+    }
+    .p-left{
+        width: 278px;
+        height: 138px;
+    }
+    .p-left p{
+        font-size: 36px;
+        margin-top: 0;
+    }
+    .p-left p span{
+        font-size: 36px;
     }
     .left-div{
-        margin-bottom: 10em;
+        margin-left: 5em;
+    }
+    .banner img{
+        width: 329px;
+        height: 259.17px;
+        margin-left: 5em;
+    }
+    .poster {
+        flex-direction: column;
+    }
+
+    .poster-setup {
+        flex-direction: column;
+    }
+    .banner img{
+        margin-top: 8em;
+    }
+    .watch-live{
+        margin-top: 5em;
     }
     .nav-setup{
-        display:;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+    .login-btn{
         justify-content: center;
     }
-    .poster{
-        flex-direction: column;
-    } */
-header{
-    width: 100%;
-    height: 825px;
-}
-.navigation{
-    margin-left: 10em;
-}
-.p-left{
-    width: 278px;
-    height: 138px;
-}
-.p-left p{
-    font-size: 36px;
-    margin-top: 0;
-}
-.p-left p span{
-    font-size: 36px;
-}
-.left-div{
-    margin-left: 5em;
-}
-.banner img{
-    width: 329px;
-    height: 259.17px;
-    margin-left: 5em;
-}
-.poster {
-    flex-direction: column;
-}
 
-.poster-setup {
-    flex-direction: column;
-}
-.banner img{
-    margin-top: 8em;
-}
-.watch-live{
-    margin-top: 5em;
-}
-.nav-setup{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 0;
-}
-.login-btn{
-    justify-content: center;
-}
-
-
-
-
-
-
-    
     .container{
         width: 90%;
     }
@@ -358,12 +337,11 @@ header{
         padding: 0;
     }
     .tran-p{
-        width: 35%;
+        width: 80%;
     }
     .tran-p p{
-        width: 20em;
-        height: 45em;
-        font-size: 18px;
+        width: 30em;
+        height: 35em;
         font-size: 12px;
     }
     .footer-border{
