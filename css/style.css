@@ -57,9 +57,9 @@ header{
     height: 438px;
 }
 .banner img:hover{
-    transform: rotate(50deg);
+    transform: rotate(30deg);
     transform-origin: top center;
-    transition: transform 1s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 button{
     width: 123px;
