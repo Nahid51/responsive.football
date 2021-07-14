@@ -261,6 +261,7 @@ span{
 }
 .footer-icon{
     padding: 10px;
+    background-color: gainsboro;
     border-radius: 50%;
 }
 /* ----------------Footer End------------------ */
